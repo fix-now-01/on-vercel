@@ -154,11 +154,11 @@ window.addEventListener('submit', (e) => {
   switch (e.submitter) {
     default:
     case wayback: {
-      post("/wayback");
+      post("/api/wayback");
       break
     };
     case playback: {
-      post("/playback");
+      post("/api/playback");
       break
     };
   }
