@@ -11,5 +11,5 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	// Register the handler function for the "/" route
-	http.HandleFunc("/", helloHandler)
+	http.HandleFunc("/", Handler)
 }
